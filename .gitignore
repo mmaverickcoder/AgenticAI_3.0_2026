@@ -12,15 +12,32 @@ __pycache__/
 *.pyc
 .venv/
 .venv*/
+venv/
+env/
+ENV/
+.python-version
+.envrc
 
 # Secrets — every class folder ships a `.env.example` instead
 .env
 .env.*
 !.env.example
 !*.example.env
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.jks
+*.keystore
+*.secret
+secrets/
+credentials/
+service-account*.json
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+*.egg-info/
 
 # Pre-restructure local scaffolding — superseded by the dated Weekend NN folders,
 # kept on disk locally but never tracked (only stray .venv/.env content lives in these)
