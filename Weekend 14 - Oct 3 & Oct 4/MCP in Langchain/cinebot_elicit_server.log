@@ -1,0 +1,23 @@
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 4.0.10                                │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      CineBotElicit, 4.0.10                       │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[10/03/26 10:06:52] INFO     Starting MCP server                transport.py:242
+                             'CineBotElicit' with transport                     
+                             'stdio'                                            
+[10/03/26 10:06:53] Error calling tool 'cancel_booking_confirm'                 

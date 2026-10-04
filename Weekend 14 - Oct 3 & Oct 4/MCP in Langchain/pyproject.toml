@@ -1,0 +1,16 @@
+[project]
+name = "mcp-cinebot-vscode"
+version = "0.1.0"
+description = "MCP in LangChain -- CineBot Edition, run locally in VS Code"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain[mcp]>=1.4.0",
+    "langchain-openai>=0.3.0",
+    "fastmcp>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+]
+
+[tool.uv]
+# Nothing special needed -- a plain managed virtualenv is enough for this notebook.

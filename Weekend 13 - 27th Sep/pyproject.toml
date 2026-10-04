@@ -1,0 +1,10 @@
+[project]
+name = "weekend-13-27th-sep"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3.30",
+    "langchain-mcp>=0.2.1",
+]

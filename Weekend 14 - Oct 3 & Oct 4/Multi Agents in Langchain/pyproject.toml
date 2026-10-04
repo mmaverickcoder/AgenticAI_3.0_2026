@@ -1,0 +1,18 @@
+[project]
+name = "langchain-multiagent-vscode"
+version = "0.1.0"
+description = "Multi-Agent Patterns in LangChain v1 -- CineBot Edition, run locally in VS Code"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.0",
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.3.0",
+    "python-dotenv>=1.0.0",
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+    "pydantic>=2.0.0",
+    "numpy>=1.26.0",
+]
+
+[tool.uv]
+# Nothing special needed -- a plain managed virtualenv is enough for these notebooks.
